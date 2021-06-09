@@ -26,7 +26,7 @@ $EM_CONF[$_EXTKEY] = array(
             'depends' =>
                 array(
                     'typo3' => '9.5.20-10.4.99',
-                    'vhs' => '6.4.0-6.9.99',
+                    'vhs' => '6.0.0-6.9.99',
                 ),
             'conflicts' =>
                 array(),
@@ -35,5 +35,12 @@ $EM_CONF[$_EXTKEY] = array(
         ),
     'clearcacheonload' => false,
     'author_company' => NULL,
+    'autoload' =>
+        array (
+            'psr-4' =>
+                array (
+                    'WSR\\Myflat\\' => 'Controller/',
+                ),
+        ),
 );
 
