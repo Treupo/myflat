@@ -14,7 +14,7 @@
   "require": {
 	"typo3/cms-core": "^9.5.20 || ^10.4.6",
 	"typo3/cms-frontend": "^9.5.20 || ^10.4.6",
-	"fluidtypo3/vhs": "^6.0",
+	"fluidtypo3/vhs": "^6.0"
   },
   "replace": {
     "wsr/myflat": "self.version",
